@@ -2,7 +2,10 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Capabilities from './components/Capabilities';
-import HowItWorks from './components/HowitWorks'; // Changed 'HowItWorks' to 'HowitWorks'
+import HowItWorks from './components/HowitWorks';
+import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
+import FAQ from './components/FAQ';
 import Philosophy from './components/Philosophy';
 import Footer from './components/Footer';
 
@@ -14,6 +17,9 @@ export default function App() {
         <Hero />
         <Capabilities />
         <HowItWorks />
+        <Testimonials />
+        <Pricing />
+        <FAQ />
         <Philosophy />
       </main>
       <Footer />
